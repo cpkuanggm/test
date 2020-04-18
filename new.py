@@ -1,1 +1,1 @@
-print("push")
+print("123")
