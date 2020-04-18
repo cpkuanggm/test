@@ -1,0 +1,21 @@
+git config --global user.name "cpkuanggm"
+git config --global user.email "cpkuang@sina.com"
+git config --global push.default simple
+
+git config --global --list
+
+右键git bash
+ssh-keygen -t rsa -C "cpkuang@sina.com"
+
+ssh -T git@github.com
+
+进入项目目录路径
+git@github.com:cpkuanggm/test.git
+
+git add .
+git commit -m "第一次提交"
+git remote add origin git@github.com:cpkuanggm/test.git
+git push -u origin master
+
+下载命令就是
+git clone git@github.com:cpkuanggm/test.git
