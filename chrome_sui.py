@@ -97,8 +97,8 @@ class input_pay:
 if __name__ == '__main__':
 
     url = "https://login.sui.com/"
-    user = "156875464@qq.com"
-    passwrod = "a82867049"
+    user = "111"
+    passwrod = "111"
 
     chrome = input_pay()
     chrome.chrome.implicitly_wait(10)
