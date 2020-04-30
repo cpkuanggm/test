@@ -1,6 +1,0 @@
-*.pyc
-images
-.idea
-*ghostdriver.log
-.vscode
-download_images
